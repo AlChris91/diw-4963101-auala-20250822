@@ -38,6 +38,7 @@ nav {
     background: #eee;
     width: 20rem;
     padding: .6rem;
+    color: #5e5e5e
 }
 a{
     text-decoration: none;
@@ -47,7 +48,14 @@ a{
     padding: .6rem;
     background-color: #ddd;
     border-radius: .5rem;
-
+}
+.opcao:hover{
+    background-color: #ccc;
+    color: black;
+    box-shadow: 0rem .3rem .3rem .01rem #d0cfcf;
+}
+.opcao:hover .icone-final{
+    opacity: 1;
 }
 .icone-inicial{
     /* border: .1rem solid blue; */
@@ -62,12 +70,16 @@ a{
     /* border: .1rem solid blue; */
     width: 1.5rem;
     text-align: right;
+    opacity: 0;
+    transition: opacity .3seg ease;
 }
 
 main {
     /* border: .1rem solid black; */
     flex: 1;
     padding: .5rem;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 footer {
@@ -108,6 +120,8 @@ footer {
     width: 13rem;
     height: 20rem;
     padding: .5rem;
+    margin-right: 1rem;
+    margin-bottom: 1rem ;
 }
 
 .produto {
@@ -122,10 +136,13 @@ footer {
     ;
 }
 
-.preco {
-    font-size: 1.5rem;
-
-}
+ .preco {
+     font-size: 1.5rem;
+     font-weight: bold;
+     color: green;
+     margin-top: 0.5rem;
+     text-align: right;
+ }
 
 .botao {
     margin-top: .5rem;
@@ -150,4 +167,15 @@ footer {
     padding: 0.5rem;
     background-color: rgb(48, 44, 44);
     color: #eee;
+}
+
+@media (max-width: 578px){
+    nav{
+        display:none;
+    }
+    main{
+        align-items: center;
+        flex-direction: column;
+        align-content: center;
+    }
 }
