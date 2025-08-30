@@ -39,21 +39,27 @@ nav {
     width: 20rem;
     padding: .6rem;
 }
+a{
+    text-decoration: none;
+}
 .opcao{
     display:flex;
-    border: 1px solid purple;
+    padding: .6rem;
+    background-color: #ddd;
+    border-radius: .5rem;
+
 }
 .icone-inicial{
-    border: .1rem solid blue;
+    /* border: .1rem solid blue; */
     width: 1.5rem;
     
 }
 .rotulo{
-    border: .1rem solid green;
-
+    /* border: .1rem solid green; */
+    flex:1;
 }
 .icone-final{
-    border: .1rem solid blue;
+    /* border: .1rem solid blue; */
     width: 1.5rem;
     text-align: right;
 }
