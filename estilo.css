@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    font-size: 16px;
+    font-family: monospace;
+}
+
+html {
+    /* border: .1rem solid blue; */
+
+}
+
+body {
+    /* border: .1rem solid red; */
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    /* border: .1rem solid green; */
+    background: lightgray;
+    display: flex;
+    height: 3rem;
+    padding: .5rem;
+    align-items: center;
+    align-content: center;
+}
+
+section {
+    /* border: .1rem solid gray; */
+    display: flex;
+    flex: 1;
+
+}
+
+nav {
+    /* border: .1rem solid yellow; */
+    background: #eee;
+    width: 20rem;
+}
+
+main {
+    /* border: .1rem solid black; */
+    flex: 1;
+    padding: .5rem;
+}
+
+footer {
+    /* border: .1rem solid aqua; */
+    background: lightgray;
+    display: flex;
+    height: 3rem;
+    padding: .5rem;
+    align-items: center;
+    align-content: center;
+}
+
+#logo {
+    /* border: .2rem solid gold; */
+    border-radius: 50%;
+    width: 2rem;
+    height: 2rem;
+    margin-right: 1rem;
+    padding: .5rem;
+    background: blue;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.titulo {
+    font-weight: bold;
+    color: gray;
+
+}
+
+.cartao {
+    border: .1rem solid black;
+    width: 13rem;
+    height: 20rem;
+    padding: .5rem;
+}
+
+.produto {
+    width: 12.8rem;
+    /* border: .1rem solid red; */
+}
+
+.nome-produto {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-top: .5trem;
+    ;
+}
+
+.preco {
+    font-size: 1.5rem;
+
+}
+
+.botao {
+    margin-top: .5rem;
+    width: 100%;
+    padding: .5rem;
+    color: #eee;
+    background: purple;
+    font-weight: bold;
+    border: none;
+    border-radius: .5rem;
+    cursor: pointer;
+    margin-top: 1rem;
+
+}
+
+footer {
+    /* border: 0.1rem solid yellow; */
+    display: flex;
+    align-items: center;
+    align-content: center;
+    height: 3rem;
+    padding: 0.5rem;
+    background-color: rgb(48, 44, 44);
+    color: #eee;
+}
