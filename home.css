@@ -42,6 +42,7 @@ nav {
 }
 li{
     margin-bottom: 1rem;
+    list-style: none;
 }
 a{
     text-decoration: none;
@@ -115,7 +116,29 @@ footer {
 .titulo {
     font-weight: bold;
     color: gray;
-
+    flex: 1;
+}
+.menu-hamburguer{
+    color:greenyellow;
+    width: 1.2rem;
+    height: 1.2rem;
+    border: .1rem solid black;
+    padding: .7rem;
+    display:flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    border-radius: 100%;
+    background-color: #515050;
+}
+.menu-hamburguer i{
+    color: aqua;
+}
+.menu-hamburguer:hover i{
+    color: rgb(255, 196, 0);
+}
+.menu-hamburguer i:hover{
+    color: red;
 }
 
 .cartao {
@@ -173,6 +196,10 @@ footer {
 }
 
 @media (max-width: 578px){
+
+    .titulo{
+        opacity: 0;
+    }
     nav{
         display:none;
     }
