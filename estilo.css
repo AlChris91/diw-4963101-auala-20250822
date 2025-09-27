@@ -40,6 +40,9 @@ nav {
     padding: .6rem;
     color: #5e5e5e
 }
+.menu-oculto{
+    display: none;
+}
 li{
     margin-bottom: 1rem;
     list-style: none;
