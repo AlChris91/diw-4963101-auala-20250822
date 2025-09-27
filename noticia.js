@@ -19,7 +19,7 @@ function caregarNoticias() {
         cartao.className = "cartao";
 
         cartao.innerHTML = `
-        <img src="${item.imagem}" alt="${item.titulo}" />
+        <img clas="imagem" src="${item.imagem}" alt="${item.titulo}" />
         <section class="corpo-cartao">
             <h2 class="titulo-noticia-cartao">${item.titulo}</h2>
             <p>${item.categoria} - ${item.data}</p>
